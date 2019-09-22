@@ -9,10 +9,15 @@ class Triangle
   end 
 
   def kind  
-    case type 
+    if a == b && b == c 
+      :isosceles 
+    elsif 
+      a == b || a==c || b==c 
+      :equilateral 
+    else 
+      :scalenne
+    end
     
-  
-  end 
 end
 
 class TriangleError < StandardError 

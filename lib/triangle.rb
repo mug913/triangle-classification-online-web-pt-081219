@@ -9,7 +9,7 @@ class Triangle
   end 
 
   def kind  
-    if a < 1 || b < 1 || c < 1 
+    if a <= 0 || b <= 0 || c <= 0 
       raise TriangleError
     else
       if a == b && b == c 

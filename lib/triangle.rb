@@ -9,6 +9,8 @@ class Triangle
   end 
 
   def kind  
+    case type 
+    
   
   end 
 end
